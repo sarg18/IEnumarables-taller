@@ -11,13 +11,18 @@ namespace Exercices.Logic
     {
         private int _n;
 
+        //public Exe35()
+        //{
+        //    _n = N;
+        //}
+
 
         public int N { get; }
 
-        public List<int> Factors(int N)
+        public static List<int> Factors(int N)
         {
             List<int> factors = new List<int>();
-            for (int i = 2; i <= _n; i++)
+            for (int i = 2; i <= N; i++)
 
 
             {
